@@ -1,6 +1,14 @@
-# This team hasn't started yet...
+# Introduction
 
-Check back later!
 
-**Please read `tasks.md` to start your work.**
+# Code
  
+
+# Contributors
+There are 3 contributors so far. We are looking forward to seeing more people to join us!
+* @heiyimak
+* @zijiedai
+* @Ann-wong1
+* ...
+
+to be updated
