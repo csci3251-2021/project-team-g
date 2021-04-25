@@ -1,5 +1,5 @@
 # Introduction ⭐
-We are going to build a [webpage](https://csci3251-2021.github.io/project-team-g/) step by step.
+We are going to build a [web page](https://csci3251-2021.github.io/project-team-g/) step by step.
 A project board is created so that everyone can keep track of progress.
 1. Everyone will include his or her profile in the `_stu` folder, which will be displayed under **Contributors**. 
 2. A Github Action with a workflow will be set up to run the C code written in `code.c`, from which a status badge will be obtained and be displayed under **Code**.
