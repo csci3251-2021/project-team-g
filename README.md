@@ -11,10 +11,9 @@ A project board is created so that everyone can keep track of progress.
 
 # Contributors 🧑‍🤝‍🧑
 
-<script>
 <ul>
   {% for stu in site.stu %}
   <p>{{ stu.content | markdownify }}</p>
   {% endfor %}
 </ul>
-</script>
+
