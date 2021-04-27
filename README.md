@@ -13,8 +13,6 @@ A project board is created so that everyone can keep track of progress.
 
 <ul>
   {% for stu in site.stu %}
-  <p>{{ stu.user }} - {{ stu.name }}</p>
-  <p>{{ stu.image }}</p>
   <p>{{ stu.content | markdownify }}</p>
   {% endfor %}
 </ul>
