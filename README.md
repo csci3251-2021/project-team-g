@@ -11,6 +11,7 @@ A project board is created so that everyone can keep track of progress.
 
 # Contributors 🧑‍🤝‍🧑
 
-
-*(to be updated)*
-
+{% for student in site.stu %}
+  * <img src="{{ student.image }}" style="width: 40px; height: 40px"> @{{student.user}}({{student.name}}) 
+    * {{ student.content }}
+{% endfor %}
