@@ -1,0 +1,17 @@
+name: C/C++_CI_by_team_g 
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: hello world
+      run: gcc code.c -o code; ./code
