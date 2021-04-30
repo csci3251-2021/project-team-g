@@ -1,4 +1,4 @@
-name: C/C++_CI_for_Hello_World
+name: project_team_g_Hello_World
 
 on:
   push:
