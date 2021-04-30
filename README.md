@@ -15,3 +15,5 @@ A project board is created so that everyone can keep track of progress.
   * <img src="{{ stu.image }}" style="width: 40px; height: 40px"> [@{{stu.user}}](http://github.com/{{stu.user}}) ({{stu.name}}) 
     * {{ stu.content }}
 {% endfor %}
+
+{{ site.time }}
