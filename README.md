@@ -7,8 +7,9 @@ A project board is created so that everyone can keep track of progress.
 4. Finally, the link of our webpage will be added to the `README.md` in `csci3251-2021.github.io` in the CSCI3251-2021 organization.
 
 # Code 💻
+ ```c
  {% include_relative code.c %}
- 
+ ```
 # Contributors 🧑‍🤝‍🧑
 
 {% for stu in site.stu %}
