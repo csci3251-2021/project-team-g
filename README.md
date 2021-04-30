@@ -10,8 +10,9 @@ A project board is created so that everyone can keep track of progress.
  ```c
  {% include_relative code.c %}
  ```
-# Contributors 🧑‍🤝‍🧑
-
+ [![project_team_g_Hello_World](https://github.com/csci3251-2021/project-team-g/actions/workflows/c-cpp.yml/badge.svg?branch=master)](https://github.com/csci3251-2021/project-team-g/actions/workflows/c-cpp.yml)
+ 
+ # Contributors 🧑‍🤝‍🧑
 {% for stu in site.stu %}
   * <img src="{{ stu.image }}" style="width: 40px; height: 40px"> [@{{stu.user}}](http://github.com/{{stu.user}}) ({{stu.name}}) 
     * {{ stu.content }}
